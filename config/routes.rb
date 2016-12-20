@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
-  devise_for :users
+
+  resources :spaces
+  get 'users/index'
+
+  get 'users/show'
+
+  devise_for :users, :controllers => { registrations: 'registrations' }
+  resources :users, :only => [:index, :show]
+
+
   get 'home/index'
 
   root 'home#index'
