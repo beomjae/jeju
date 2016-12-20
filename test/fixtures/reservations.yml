@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  using_start_datetime: 2016-12-21 03:49:15
+  using_end_datatie: 2016-12-21 03:49:15
+  user_id: 
+  space_id: 
+
+two:
+  title: MyString
+  using_start_datetime: 2016-12-21 03:49:15
+  using_end_datatie: 2016-12-21 03:49:15
+  user_id: 
+  space_id: 

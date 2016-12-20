@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @reservation.title %>
+</p>
+
+<p>
+  <strong>Using start datetime:</strong>
+  <%= @reservation.using_start_datetime %>
+</p>
+
+<p>
+  <strong>Using end datatie:</strong>
+  <%= @reservation.using_end_datatie %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @reservation.user %>
+</p>
+
+<p>
+  <strong>Space:</strong>
+  <%= @reservation.space %>
+</p>
+
+<%= link_to 'Edit', edit_reservation_path(@reservation) %> |
+<%= link_to 'Back', reservations_path %>
